@@ -1,11 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import Profile from './pages/Profile/Profile';
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-     <Footer/>
+    
+    <Routes>
+            <Route path="/profile" element={<Profile />} />
+            
+          </Routes>
+     
     </div>
   );
 }

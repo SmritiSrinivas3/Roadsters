@@ -1,0 +1,33 @@
+.sideNavContainer{
+    font-family: 'Iceberg', cursive;
+    margin-left: 2px;
+    background-color: #F4F6F8;
+    height: 100vh;
+    width: 21vw;
+    padding-left: 5vw;
+    padding-top: 1vh;
+}
+h2{
+    font-weight: 1000px;
+}
+
+.sideNav{
+    position: absolute;
+    left:0px;
+}
+li{
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.profileIcons{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-top: 2vh;
+}
