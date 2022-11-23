@@ -1,30 +1,35 @@
 import React from 'react'
+
 import './Userdetails.css'
 import profileImg from './profile.png'
 
 export default function Userdetails() {
   return (
     <div className='userDetailsContainer'>
+
       <h1>My Details</h1>
       <h2>Personal Information</h2>
-      <hr/>
-     <img src={profileImg}></img>
-     <form>
+      <hr />
+      <img src={profileImg}></img>
 
-        <label for = "userName"></label>
-        NAME <input type="text" class="inputTextField" name='userName'></input>
-        
+
+      <div className='Info'>
+
+        <label for="userName"></label>
+        NAME 
+
         <label for="birthDate"></label>
-        BIRTHDATE <input type="date" name="birthDate"></input>
+        BIRTHDATE 
 
-       <label for="phoneNumber"></label>
-       PHONE NUMBER <input type="number" name="phoneNumber"></input>
+        <label for="phoneNumber"></label>
+        PHONE NUMBER 
 
-       <label for = "email"></label>
-       E-MAIL <input type="email" name="email"></input>
+        <label for="email"></label>
+        E-MAIL 
 
 
-     </form>
+      </div>
+
     </div>
   )
 }

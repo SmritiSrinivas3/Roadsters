@@ -20,4 +20,11 @@ h2{
     margin-top: 1rem;
 }
 
-
+.Info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh;
+   row-gap: 1vh;
+   font-weight: 600;
+}
