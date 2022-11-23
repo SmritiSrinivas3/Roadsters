@@ -3,3 +3,4 @@ Figma file: https://www.figma.com/file/AkqN8iHKDdz5qcm6NIAIJv/E-commerce-site?no
 To install dependancies: npm install
 <br>
 To run : npm start
+<br> React, Bootstrap
