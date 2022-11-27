@@ -5,7 +5,7 @@ import './Sidenav.css'
 export default function Sidenav() {
   return (
     <div className='sideNavContainer'>
-        <h2>My Account</h2>
+        <div className='title'>My Account</div>
         <ul>
        <div id="details" class="profileIcons">
        <Icon  name='details' icon="gg:profile" width="38" height="38" /> <li>My details</li>
