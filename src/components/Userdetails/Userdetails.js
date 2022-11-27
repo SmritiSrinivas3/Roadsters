@@ -33,7 +33,9 @@ export default function Userdetails() {
       <hr />
       <img src={profileImg}></img>
       <div className='Info'>
-        
+      {data.map((entry)=>{
+        <h2 id={entry.id}>{entry.data}</h2>
+      })}
       </div>
     </div>
   )
