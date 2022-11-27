@@ -16,6 +16,9 @@ export default function Sidenav() {
         <div id="wishlist" class="profileIcons">
         <Icon  icon="icon-park-solid:like" width="38" height="38" />   <li> Wishlist</li>
         </div>
+        <div id='logOut' class="profileIcons">
+        <Icon icon="material-symbols:logout" width="38" height="38" /> <li>Log Out</li>
+        </div>
         </ul>
       
     </div>
