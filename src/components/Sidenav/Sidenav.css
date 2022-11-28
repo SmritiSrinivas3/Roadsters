@@ -37,3 +37,8 @@ ul{
 .title{
     font-size: 1.5rem;
 }
+@media (max-width: 650px) {
+ .sideNavContainer{
+    width: 40vw;
+ }
+}

@@ -29,3 +29,8 @@ h2{
    font-weight: 600;
    font-size: 1.3rem;
 }
+@media (max-width: 650px) {
+    .userDetailsContainer{
+      left: 50vw;
+    }
+   }
