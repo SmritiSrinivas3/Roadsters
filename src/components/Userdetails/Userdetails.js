@@ -14,7 +14,6 @@ export default function Userdetails() {
         const userDetailsFirebase = await getDocs(collection(db, 'userDetails'))
         userDetailsFirebase.forEach((user) => {
           userData.push({id: user.id, ...user.data()})
-          console.log(user.id)
         })
         setData(userData)
         console.log(data)
@@ -34,7 +33,11 @@ export default function Userdetails() {
       <img src={profileImg}></img>
       <div className='Info'>
       {data.map((entry)=>(
-        <h2 id={entry.id}>{entry.data}</h2>
+        <div>
+        <h4 id={entry.id}>Name: {entry.Name}</h4> 
+        <h4 id={entry.id}> Email: {entry.Email}</h4>
+        <h4 id={entry.id}>Phone number: {entry.phoneNumber}</h4>
+        </div>
       ))}
       
       </div>
