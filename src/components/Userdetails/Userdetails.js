@@ -30,6 +30,8 @@ export default function Userdetails() {
       <h1>My Details</h1>
       <h2>Personal Information</h2>
       <hr />
+      <br/>
+      <br/>
       <img src={profileImg}></img>
       <div className='Info'>
       {data.map((entry)=>(
