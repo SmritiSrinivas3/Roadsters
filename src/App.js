@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import UserDetails from './components/Userdetails/Userdetails'
 import Sidenav from './components/Sidenav/Sidenav';
 import MyOrders from './components/MyOrders/MyOrders';
+import MyDetails from './components/MyDetails/MyDetails';
 import Home from './pages/homepage';
 
 
@@ -21,6 +22,12 @@ function App() {
           <>
             <Sidenav />
            <MyOrders/>
+          </>
+        }></Route>
+        <Route path='/mydetails' element={
+          <>
+            <Sidenav />
+           <MyDetails/>
           </>
         }></Route>
       </Routes>
