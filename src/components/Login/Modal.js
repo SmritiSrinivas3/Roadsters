@@ -4,8 +4,14 @@ import './Modal.css'
 import ReactDom from 'react-dom'
 import { Icon } from '@iconify/react';
 export default function Modal({ open, onCLose }) {
-
-
+ 
+  // email validation
+  const[Email, setEmail] = useState("")
+  const handleOnChange = (e) =>{
+    setEmail(e.target.value)
+  }
+  
+  
   if (!open) return null
 
   return ReactDom.createPortal(
@@ -22,7 +28,7 @@ export default function Modal({ open, onCLose }) {
               EMAIL -ID
             </div>
             <br></br>
-            <input type='email'></input>
+            <input type='email' value={Email} onChange={handleOnChange}></input>
             <br />
             <div id="loginPassword" className='loginInfoEnter'>
               <Icon icon="mdi:password" color="white" width="24" height="24" />

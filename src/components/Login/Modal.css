@@ -1,7 +1,6 @@
 *{
     font-family: 'Iceberg', cursive;
-    font-size: 1rem;
-    color: aliceblue;
+ 
 }
 .modalContainer{
     position: fixed;
@@ -23,7 +22,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
 }
 #loginButtonOnModal{
@@ -38,6 +37,8 @@ position: absolute;
 left: 30%;
 margin-bottom: 10%;
 margin-top: 5%;
+color: aliceblue;
+font-size: 1rem;
 }
 
 .loginInfoEnter{
@@ -49,6 +50,8 @@ margin-top: 5%;
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    font-size: 1rem;
+    color: aliceblue;
 }
 form input{
     display: flex;
@@ -75,4 +78,5 @@ form input{
  padding-top: 1rem;
  padding-bottom: 1rem;
 border-radius: 1rem 1rem 0rem 0rem;
+color: aliceblue;
 }
