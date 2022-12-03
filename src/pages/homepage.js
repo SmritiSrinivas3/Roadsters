@@ -3,7 +3,7 @@ import { BsSearch } from 'react-icons/bs';
 import React, { useState } from 'react';
 import Topnavbar from '../components/Topnavbar/Topnavbar';
 import Modal from '../components/Login/Modal';
-
+import Homeimg from '../assets/homeimage.png';
 
 function Home() {
 
@@ -14,7 +14,9 @@ function Home() {
         <div className="home" >
             <div className="lt-box" >
                 <Topnavbar />
+                
             </div>
+            <img src={Homeimg} className='homeimg'/>
             <div className='rt-box' >
                 <div className='small-box'>
                     <div className='search'>
@@ -27,6 +29,7 @@ function Home() {
                     </Modal>
 
                 </div>
+                
             </div>
         </div>);
 }

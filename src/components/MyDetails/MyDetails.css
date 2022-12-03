@@ -1,0 +1,44 @@
+h1 {
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+h2{
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.mydetailsContainer {
+    font-family: 'Iceberg', cursive;
+    background-color: white;
+    height: 100vh;
+    width: 70vw;
+    position: absolute;
+    top: 1vh;
+    left: 22vw;
+    padding: 2rem;
+
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width:400px;
+    justify-content: space-evenly;
+}
+form input{
+    float: right;
+}
+.submit{
+    width: 150px;
+    padding: 10px;
+    background-color: #227F9D;
+    border: none;
+    font-family: iceberg;
+    color: white;
+}
