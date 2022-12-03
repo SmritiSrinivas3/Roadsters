@@ -9,9 +9,7 @@ return (
         <li>Trending</li>
         <li>Product</li>
         <li>About</li>
-        <li>Cart</li>
-        <li>Wishlist</li>
-        
+       
     </ul>
 </div>
 )
