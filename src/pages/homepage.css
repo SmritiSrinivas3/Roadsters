@@ -15,6 +15,7 @@
     height: 100vh;
     width: 30vw;
     background-color: #227F9D;
+    margin-right: 0px;
 }
 
 .rt-box input {
@@ -31,7 +32,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 25px;
-    margin-left: 25px;
+    margin-left: 1rem;
 }
 .small-box{
     display: flex;
@@ -48,4 +49,15 @@
 .profile-icon{
     margin-top: 10px;
     margin-left: 20px;
+}
+button{
+    border-radius: 33px;
+    margin-left: 1rem;
+    border: 1px solid aliceblue;
+    height: 2.5rem;
+    margin-top: 25px;
+    cursor: pointer;
+    background-color: #227F9D;
+    width: 2.7rem;
+    color: aliceblue;
 }

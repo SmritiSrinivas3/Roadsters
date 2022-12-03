@@ -32,6 +32,7 @@
     font-size: 1.5rem;
     font-family: 'Iceberg', cursive;
     margin-left: 2rem;
+    padding-bottom: 0;
   
   }
   
@@ -50,3 +51,4 @@
     border: transparent;
     border-radius: 7px;
   }
+
