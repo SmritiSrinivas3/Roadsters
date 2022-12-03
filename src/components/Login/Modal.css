@@ -36,7 +36,7 @@ padding: 1rem;
 position: absolute;
 left: 30%;
 margin-bottom: 10%;
-margin-top: 5%;
+margin-top: 10%;
 color: aliceblue;
 font-size: 1rem;
 }
@@ -79,4 +79,18 @@ form input{
  padding-bottom: 1rem;
 border-radius: 1rem 1rem 0rem 0rem;
 color: aliceblue;
+}
+
+.options h5{
+    color: aliceblue;
+    font-weight: 200;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.options{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1rem;
 }

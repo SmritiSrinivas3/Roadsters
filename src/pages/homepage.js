@@ -22,7 +22,7 @@ function Home() {
                     </div>
 
                     <button id='loginButtonOnHomepage' onClick={() => setOpen(true)}>Log In</button>
-                    <Modal open={isOpen} onCLose={() => setOpen(false)}>
+                    <Modal open={isOpen} onClose={() => setOpen(false)}>
                         text
                     </Modal>
 
