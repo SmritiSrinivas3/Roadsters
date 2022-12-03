@@ -21,7 +21,7 @@ function Home() {
                         <input type="text" placeholder="Search.." /> <h3 className='search-icon'><BsSearch /></h3>
                     </div>
 
-                    <button id='loginButton' onClick={() => setOpen(true)}>Log In</button>
+                    <button id='loginButtonOnHomepage' onClick={() => setOpen(true)}>Log In</button>
                     <Modal open={isOpen} onCLose={() => setOpen(false)}>
                         text
                     </Modal>
