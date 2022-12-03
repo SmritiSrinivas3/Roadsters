@@ -35,21 +35,15 @@ width: 10vw;
 padding: 1rem;
 position: absolute;
 left: 30%;
-margin-bottom: 10%;
-margin-top: 10%;
+bottom: 5%;
 color: aliceblue;
 font-size: 1rem;
 }
 
 .loginInfoEnter{
-    display: inline-flex;
-    margin-left: 1rem;
-    justify-content: space-evenly;
+   margin-top: 25px;
     cursor: pointer;
     float: left;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
     font-size: 1rem;
     color: aliceblue;
 }
@@ -58,18 +52,19 @@ form input{
     background-color: #05152E;
     padding: 0;
     box-shadow: 0px 0px 0px;
-    margin-bottom: 1rem;
     justify-content: flex-start;
     color: aliceblue;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
-    width: 85%;
+    width: 45%;
+}
+form{
     margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 .loginFormTopBanner{
+    position: absolute ;
     font-size: 2rem;
     text-align: center;
     background-color: #227F9D;
@@ -79,9 +74,13 @@ form input{
  padding-bottom: 1rem;
 border-radius: 1rem 1rem 0rem 0rem;
 color: aliceblue;
+top: 0px;
 }
 
 .options h5{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: aliceblue;
     font-weight: 200;
     margin-left: 1rem;
@@ -89,8 +88,7 @@ color: aliceblue;
     cursor: pointer;
 }
 .options{
-    display: inline-flex;
-    flex-direction: row;
+    
     justify-content: space-between;
     padding-bottom: 1rem;
 }
