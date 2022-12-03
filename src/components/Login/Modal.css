@@ -1,11 +1,20 @@
+*{
+    font-family: 'Iceberg', cursive;
+    font-size: 1rem;
+    color: aliceblue;
+}
 .modalContainer{
     position: fixed;
     bottom:50%;
     right:50%;
     transform: translate(50%, 50%);
     background-color: white;
-    padding: 50px;
     z-index: 1000;
+    border-radius: 1rem;
+    background: #05152E;
+    width: 25vw;
+    height: auto;
+    min-height: 55vh;
 }
 
 .overlay{
@@ -16,4 +25,54 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.616);
     z-index: 1000;
+}
+#loginButtonOnModal{
+cursor: pointer;
+background: #227F9D;
+border: transparent;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0.8rem;
+width: 10vw;
+padding: 1rem;
+position: absolute;
+left: 30%;
+margin-bottom: 10%;
+margin-top: 5%;
+}
+
+.loginInfoEnter{
+    display: inline-flex;
+    margin-left: 1rem;
+    justify-content: space-evenly;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+form input{
+    display: flex;
+    background-color: #05152E;
+    padding: 0;
+    box-shadow: 0px 0px 0px;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+    color: aliceblue;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    width: 85%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.loginFormTopBanner{
+    font-size: 2rem;
+    text-align: center;
+    background-color: #227F9D;
+ margin-bottom: 1rem;
+ width: 100%;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+border-radius: 1rem 1rem 0rem 0rem;
 }
