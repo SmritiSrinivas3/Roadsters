@@ -11,9 +11,9 @@
     z-index: 1000;
     border-radius: 1rem;
     background: #05152E;
-    width: 25vw;
+    width: 25%;
     height: auto;
-    min-height: 55vh;
+  
 }
 
 .overlay{
@@ -26,69 +26,64 @@
     z-index: 1000;
 }
 #loginButtonOnModal{
-cursor: pointer;
-background: #227F9D;
-border: transparent;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 0.8rem;
-width: 10vw;
-padding: 1rem;
-position: absolute;
-left: 30%;
-bottom: 5%;
-color: aliceblue;
-font-size: 1rem;
+    width: 35%;
+    height: 15%;
+    color: white;
+    font-size: 1rem;
+    background-color: #227F9D;
+    border: transparent;
+    border-radius: 1rem;
+   align-self: center;
+   margin-left: 0;
+   position: relative;
+   right: 10%;
+   cursor: pointer;
+   margin-top: 3%;
 }
 
 .loginInfoEnter{
-   margin-top: 25px;
+    display: inline-block;
+    color: white;
+    font-size: 1.3rem;
     cursor: pointer;
-    float: left;
-    font-size: 1rem;
-    color: aliceblue;
+   
+    margin-top: 5%;
+ 
 }
+
+.loginInfoIcon{
+    margin-right: 12px;
+}
+
+
 form input{
-    display: flex;
+   
+    width: 55%;
     background-color: #05152E;
-    padding: 0;
-    box-shadow: 0px 0px 0px;
-    justify-content: flex-start;
-    color: aliceblue;
     border-top: transparent;
-    border-left: transparent;
     border-right: transparent;
-    width: 45%;
-}
-form{
-    margin-left: 1rem;
+    border-left: transparent;
 }
 
 .loginFormTopBanner{
-    position: absolute ;
-    font-size: 2rem;
-    text-align: center;
     background-color: #227F9D;
- margin-bottom: 1rem;
- width: 100%;
- padding-top: 1rem;
- padding-bottom: 1rem;
-border-radius: 1rem 1rem 0rem 0rem;
-color: aliceblue;
-top: 0px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    text-align: center;
+    padding: 1rem;
+   
 }
 
 .options h5{
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: aliceblue;
-    font-weight: 200;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-    cursor: pointer;
+color: white;
+display: inline;
+font-weight: 100;
+margin-bottom: 3%;
+margin-left: 5%;
+cursor: pointer;
 }
-.options{
     
-    justify-content: space-between;
-    padding-bottom: 1rem;
+form{
+    padding: 5%;
 }

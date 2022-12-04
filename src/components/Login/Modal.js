@@ -19,15 +19,15 @@ export default function Modal({ open, onClose }) {
           <form>
 
             <div id="loginEmail" className='loginInfoEnter'>
-              <Icon icon="ic:outline-email" color="white" width="24" height="24" />
+              <Icon icon="ic:outline-email" className='loginInfoIcon' color="white" width="24" height="24" />
               EMAIL -ID
             </div>
-            <br /> <br />
+           
             <input type='email' required='true'></input>
 
             <br />
             <div id="loginPassword" className='loginInfoEnter'>
-              <Icon icon="mdi:password" color="white" width="24" height="24" />
+              <Icon icon="mdi:password" classname='loginInfoIcon' color="white" width="24" height="24" />
               PASSWORD
             </div>
 
