@@ -1,8 +1,10 @@
 .sideNavTitle{
     font-size: 2rem;
     font-weight: 900;
+    padding-top: 0.5rem;
 }
 .sideNavContainer{
+
     background-color: #F4F6F8 ;
     width: 20vw;
  height: 100vh;

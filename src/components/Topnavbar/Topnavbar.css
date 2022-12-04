@@ -5,10 +5,12 @@
   
   .navbar {
     background-color: white;
-    position: fixed;
-    top: 0;
+    position: sticky;
+    top: 0px;
     width: 100%;
-    height: 100px;
+    height: auto;
+    padding: 1rem;
+    z-index: 1000;
   }
   
   .navbar ul {
@@ -16,11 +18,10 @@
     margin: 0;
     padding: 0;
     display: flex;
-    margin-top: 2rem;
     background-color: white;
     width: auto;
     position: relative;
-  
+
   }
   
   .navbar li {
@@ -31,8 +32,7 @@
     color: black;
     font-size: 1.5rem;
     font-family: 'Iceberg', cursive;
-    margin-left: 2rem;
-    padding-bottom: 0;
+    margin-left: 5%;
   
   }
   
@@ -50,5 +50,6 @@
     background-color: #227F9D;
     border: transparent;
     border-radius: 7px;
+    color: white;
   }
 

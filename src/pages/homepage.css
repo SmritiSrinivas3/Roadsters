@@ -6,12 +6,13 @@
 }
 
 .rt-box {
-    position: relative;
-    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     height: 100vh;
     width: 30vw;
     background-color: #227F9D;
-    margin-right: 0px;
+   z-index: 2000;
 }
 
 .rt-box input {

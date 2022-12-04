@@ -6,23 +6,20 @@ import Sidenav from './components/Sidenav/Sidenav';
 import Orders from './pages/Orders';
 import MyDetails from './components/MyDetails/MyDetails';
 import Home from './pages/homepage';
+import ProfilePage from './pages/ProfilePage';
 
 
 function App() {
   return (
     <div className="App">
       <Routes>
-      <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<>
-          <Sidenav />
-          <UserDetails />
-        </>
-        } ></Route>
-        <Route path='/myorders' element={<Orders/>}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/profile" element={<ProfilePage />} />
+        <Route path='/orders' element={<Orders />}></Route>
         <Route path='/mydetails' element={
           <>
             <Sidenav />
-           <MyDetails/>
+            <MyDetails />
           </>
         }></Route>
       </Routes>

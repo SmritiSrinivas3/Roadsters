@@ -1,13 +1,13 @@
 .userDetailsContainer{
     font-family: 'Iceberg', cursive;
     background-color: white;
-    height: 100vh;
+    height: auto;
     width: 70vw;
-    position: absolute;
-    top:1vh;
-    left:22vw;
     padding:2rem;
-    
+    width: 80vw;
+   position: absolute;
+   top: 9.8%;
+   left: 21%;
 }
 .userDetailsContainer img{
     height: 10rem;
