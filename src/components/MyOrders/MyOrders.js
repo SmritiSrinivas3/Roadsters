@@ -11,6 +11,9 @@ import MyOrdersCard from './MyOrdersCard';
       <h1> My Orders</h1>
       <hr/>
       <MyOrdersCard/>
+      <MyOrdersCard/>
+      <MyOrdersCard/>
+      <MyOrdersCard/>
     </div>
   )
 }

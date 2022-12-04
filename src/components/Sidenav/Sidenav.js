@@ -6,6 +6,7 @@ export default function Sidenav() {
   return (
     <div className='sideNavContainer'>
         <div className='title'>My Account</div>
+        
         <ul>
        <div id="details" class="profileIcons">
        <Icon  name='details' icon="gg:profile" width="38" height="38" /><li>My details</li>

@@ -57,7 +57,7 @@
 
 
 form input{
-   
+ 
     width: 55%;
     background-color: #05152E;
     border-top: transparent;
@@ -75,13 +75,15 @@ form input{
    
 }
 
-.options h5{
+.options a{
+    text-decoration: none;
 color: white;
 display: inline;
 font-weight: 100;
 margin-bottom: 3%;
-margin-left: 5%;
+margin-left: 3%;
 cursor: pointer;
+font-size: small;
 }
     
 form{

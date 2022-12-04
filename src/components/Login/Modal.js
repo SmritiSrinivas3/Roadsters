@@ -3,8 +3,11 @@ import { useState } from 'react'
 import './Modal.css'
 import ReactDom from 'react-dom'
 import { Icon } from '@iconify/react';
+import CreateAccount from '../CreateAccount/CreateAccount';
+import { Link } from 'react-router-dom';
 export default function Modal({ open, onClose }) {
 
+  
   if (!open) return null
 
   return ReactDom.createPortal(
@@ -34,16 +37,17 @@ export default function Modal({ open, onClose }) {
             <input type='password' required='true' ></input>
             <br/>
             <div className="options">
-              <h5>Forgot password?</h5>
-              <h5>Don't have an account yet?</h5>
+              <Link >Forgot password?</Link>
+              <Link to='../CreateAccount/CreateAccount'>Don't have an account yet?</Link>
             </div>
-
+           
             <button id='loginButtonOnModal' type="submit">LOG IN</button>
 
           </form>
 
         </div>
       </div>
+
     </>,
     document.getElementById('portal')
   )

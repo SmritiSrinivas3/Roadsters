@@ -3,6 +3,7 @@ import { BsSearch } from 'react-icons/bs';
 import React, { useState } from 'react';
 import Topnavbar from '../components/Topnavbar/Topnavbar';
 import Modal from '../components/Login/Modal';
+
 import Homeimg from '../assets/homeimage.png';
 
 function Home() {
@@ -25,7 +26,7 @@ function Home() {
 
                     <button id='loginButtonOnHomepage' onClick={() => setOpen(true)}>Log In</button>
                     <Modal open={isOpen} onClose={() => setOpen(false)}>
-                        text
+                        
                     </Modal>
 
                 </div>

@@ -5,20 +5,31 @@ h5{
     color: rgb(0,0,0,0.72);
 }
 .myOrdersCardContainer{
+    margin-top: 1.5%;
     background-color: #D6D6D6;
     width: 95%;
     height: auto;
-}
-.buttons{
-    float: right;
-    margin-right: 65%;
-    margin-bottom: 0.75rem;
-    cursor: pointer;  
+    display: flex;
+    justify-content: flex-start;
 }
 .containerText{
-float: right;
-margin-right: 65%;
+    margin-left: 5%;
+    margin-top: 1%;
 }
 .buttonsContainer{
-
+    display: flex;
+    flex-direction: column;
+    margin-top: .3%;
+    margin-left: 5%;
 }
+.buttonsContainerButtons{
+margin-top: 5%;
+cursor: pointer;
+width: 12vw;
+padding: 0.4rem;
+color: white;
+background-color: #227F9D;
+border: transparent;
+}
+
+    
