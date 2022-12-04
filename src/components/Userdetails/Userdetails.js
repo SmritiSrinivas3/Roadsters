@@ -1,17 +1,24 @@
 import React, { useEffect, useState } from 'react'
 import { db } from '../../utils/firebase'
-import { getDocs, collection } from 'firebase/firestore'
+import { getDocs, collection, where, query} from 'firebase/firestore'
 import './Userdetails.css'
+import userEmail from './../Login/Modal'
 
 
 
-export default function Userdetails() {
+export default function Userdetails(userEmail) {
+
+  const userColRef = collection(db,'userDetails')
   const [data, setData] = useState([])
+  const loginQuery = query(userColRef, where("Email", "==", userEmail))
+ console.log(userEmail)
+
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         let userData = []
-        const userDetailsFirebase = await getDocs(collection(db, 'userDetails'))
+        const userDetailsFirebase = await getDocs(userColRef)
         userDetailsFirebase.forEach((user) => {
           userData.push({ id: user.id, ...user.data() })
         })

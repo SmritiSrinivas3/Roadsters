@@ -7,7 +7,7 @@ import CreateAccount from '../CreateAccount/CreateAccount';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../../utils/firebase';
 import { Link, useNavigate } from 'react-router-dom';
-export default function Modal({ open, onClose }) {
+export default function Modal({ open, onClose, userEmail}) {
 
   const[error, setError] = useState(false)
   const[email, setEmail] = useState("")
@@ -23,6 +23,7 @@ const handleLogin = (e)=>{
     // Signed in 
     const user = userCredential.user;
     navigate('/profile')
+   const userEmail = email
     
   })
   .catch((error) => {
@@ -76,3 +77,4 @@ const handleLogin = (e)=>{
     document.getElementById('portal')
   )
 }
+
