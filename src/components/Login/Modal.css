@@ -89,3 +89,10 @@ font-size: small;
 form{
     padding: 5%;
 }
+span{
+    color: red ;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    right: 10%;
+}
