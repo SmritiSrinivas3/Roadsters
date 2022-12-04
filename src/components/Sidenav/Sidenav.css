@@ -1,45 +1,25 @@
+.sideNavTitle{
+    font-size: 2rem;
+    font-weight: 900;
+}
 .sideNavContainer{
-    font-family: 'Iceberg', cursive;
-    margin-left: 2px;
-    background-color: #F4F6F8;
-    height: 100vh;
-    width: 21vw;
-    padding-left: 1vw;
-    padding-top: 1vh;
-}
-h2{
-    font-weight: 1000px;
-    
+    background-color: #F4F6F8 ;
+    width: 20vw;
+ height: 100vh;
+ padding: 1rem;
 }
 
-.sideNav{
-    position: absolute;
-    left:0px;
-}
-li{
-    font-size: 1rem;
-    cursor: pointer;
-    display: inline-block;
-
-}
-ul{
-
-    list-style-type: none;
-   padding-top: 1.5%;
-}
-.profileIcons{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    padding-top: 2vh;
-   
-     
-}
-.title{
+.sideNavLinks{
+    text-decoration: none;
     font-size: 1.5rem;
+    color: black;
 }
-@media (max-width: 650px) {
- .sideNavContainer{
-    width: 40vw;
- }
+
+.sideNavContainer li{
+    padding-top: 10%;
 }
+
+.sideNavContainer ul{
+    list-style-type: none;
+}
+

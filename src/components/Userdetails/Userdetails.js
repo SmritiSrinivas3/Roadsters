@@ -36,10 +36,10 @@ export default function Userdetails() {
       <div className='Info'>
       {data.map((entry)=>(
         <div>
-        <h4 id={entry.id}>Name: {entry.Name}</h4> 
-        <h4 id={entry.id}> Email: {entry.Email}</h4>
-        <h4 id={entry.id}>Phone number: {entry.phoneNumber}</h4>
-        </div>
+        <h4 id={entry.id}><b>Name:</b>   {entry.Name}</h4> 
+        <h4 id={entry.id}> <b>Email: </b>   {entry.Email}</h4>
+        <h4 id={entry.id}> <b>Phone number:</b>    {entry.phoneNumber}</h4>
+        </div> 
       ))}
       
       </div>
