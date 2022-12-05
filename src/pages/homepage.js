@@ -3,6 +3,7 @@ import { BsSearch } from 'react-icons/bs';
 import React, { useState } from 'react';
 import Topnavbar from '../components/Topnavbar/Topnavbar';
 import Modal from '../components/Login/Modal'
+import ItemCard from '../components/ItemCard/ItemCard';
 
 import Homeimg from '../assets/homeimage.png';
 
@@ -31,7 +32,11 @@ function Home() {
                 </div>
                 
             </div>
-            
+            <h1>TRENDING</h1>
+            <div className="itemCardContainer">
+            <ItemCard/>
+            </div>
+           
         </div>);
 }
 
