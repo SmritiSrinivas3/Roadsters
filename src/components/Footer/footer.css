@@ -1,0 +1,34 @@
+.footer {
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 420px;
+    justify-content: space-evenly;
+}
+
+.list {
+    list-style: none;
+    line-height: 35px;
+}
+
+.list h3 {
+    font-size: 25px;
+}
+
+.social {
+    font-size: 35px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.Logo{
+    font-family: Iceberg;
+    color: white;
+}
+.contact{
+    margin-top: -60px;
+}

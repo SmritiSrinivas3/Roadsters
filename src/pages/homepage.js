@@ -2,7 +2,8 @@ import './homepage.css';
 import { BsSearch } from 'react-icons/bs';
 import React, { useState } from 'react';
 import Topnavbar from '../components/Topnavbar/Topnavbar';
-import Modal from '../components/Login/Modal';
+import Modal from '../components/Login/Modal'
+import Footer from '../components/Footer/footer'
 
 import Homeimg from '../assets/homeimage.png';
 
@@ -28,10 +29,11 @@ function Home() {
                     <Modal open={isOpen} onClose={() => setOpen(false)}>
                         
                     </Modal>
-
                 </div>
                 
             </div>
+            
+                    <Footer/>
         </div>);
 }
 
