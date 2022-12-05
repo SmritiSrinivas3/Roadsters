@@ -59,7 +59,7 @@
     color: aliceblue;
 }
 .home .homeimg{
-    position: absolute;
+    position: relative;
     top: 100px;
     left: 500px;
     width: 700px;
