@@ -7,13 +7,14 @@ import Orders from './pages/Orders';
 import MyDetails from './components/MyDetails/MyDetails';
 import Home from './pages/homepage';
 import ProfilePage from './pages/profilePage';
-
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home/>}  />
+        <Route path="/" element={
+        <div><Home/><Footer/></div>}  />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path='/orders' element={<Orders />}></Route>
         <Route path='/mydetails' element={

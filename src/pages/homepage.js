@@ -3,7 +3,6 @@ import { BsSearch } from 'react-icons/bs';
 import React, { useState } from 'react';
 import Topnavbar from '../components/Topnavbar/Topnavbar';
 import Modal from '../components/Login/Modal'
-import Footer from '../components/Footer/footer'
 
 import Homeimg from '../assets/homeimage.png';
 
@@ -33,7 +32,6 @@ function Home() {
                 
             </div>
             
-                    <Footer/>
         </div>);
 }
 
