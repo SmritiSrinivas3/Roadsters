@@ -5,7 +5,7 @@
 .individualCard{
     position: relative;
     border-radius: 0.6rem;
-    background-color: #D6D6D6;
+    background-color: #d6d6d6c4;
     width: 25vw;
     margin: 1rem;
     z-index: 3000;
@@ -40,7 +40,7 @@
     background-color: aliceblue;
     height: 36%;
    width: 100%;
-   border: 1px solid wheat;
+   border: 0.6px solid wheat;
    border-radius: .5rem 0.5rem 0rem 0rem;
 
 }

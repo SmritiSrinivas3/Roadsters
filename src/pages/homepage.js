@@ -18,7 +18,12 @@ function Home() {
                 <Topnavbar />
                 
             </div>
+            <h1>WELCOME TO ROADSTERS</h1>
+            <p className='heroPara'>To sustainably make the Pleasure and Benefits of Sport accessible to the Many
+</p>
+<button id='homeExplore'>EXPLORE</button>
             <img src={Homeimg} className='homeimg'/>
+           
             <div className='rt-box' >
                 <div className='small-box'>
                     <div className='search'>
@@ -32,7 +37,7 @@ function Home() {
                 </div>
                 
             </div>
-            <h1>TRENDING</h1>
+            <p>TRENDING</p>
             <div className="itemCardContainer">
             <ItemCard/>
             </div>
