@@ -1,5 +1,4 @@
-#Team:
-
+**Team**
 - [Smriti Srinivas](https://github.com/SmritiSrinivas3)
 - [Rahul VS](https://github.com/rahulvs891)
 - [Hana Shelbin](https://github.com/H-ana)
