@@ -7,12 +7,14 @@ import CreateAccount from '../CreateAccount/CreateAccount';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from '../../utils/firebase';
 import { Link, useNavigate } from 'react-router-dom';
-export default function Modal({ open, onClose, userEmail}) {
+import Userdetails from '../Userdetails/Userdetails';
+export default function Modal({ open, onClose}) {  
 
   const[error, setError] = useState(false)
   const[email, setEmail] = useState("")
   const[password, setPassword] = useState("")
   const navigate = useNavigate()
+ 
 
 
 
@@ -23,7 +25,6 @@ const handleLogin = (e)=>{
     // Signed in 
     const user = userCredential.user;
     navigate('/profile')
-   const userEmail = email
     
   })
   .catch((error) => {

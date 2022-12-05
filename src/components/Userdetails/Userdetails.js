@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { db } from '../../utils/firebase'
 import {collection, where, query, onSnapshot, docs, doc} from 'firebase/firestore'
 import './Userdetails.css'
-import userEmail from './../Login/Modal'
+
 
 
 
@@ -10,13 +10,13 @@ export default function Userdetails(userEmail) {
 
   const userColRef = collection(db,'userDetails')
   const [data, setData] = useState([{Name : "LOADING..." , id: "initial"}])
-
+  const loginQuery = query(userColRef, where("Email", "==", userEmail))
 
 
 
   useEffect(
     () => 
-    onSnapshot(userColRef, (snapshot)=>{
+    onSnapshot(loginQuery, (snapshot)=>{
  setData(snapshot.docs.map((doc) => ({...doc.data(), id: doc.id})))
 
     })    

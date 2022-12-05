@@ -6,7 +6,7 @@ import Sidenav from './components/Sidenav/Sidenav';
 import Orders from './pages/Orders';
 import MyDetails from './components/MyDetails/MyDetails';
 import Home from './pages/homepage';
-import ProfilePage from './pages/profilePage';
+import ProfilePage from './pages/ProfilePage';
 
 
 function App() {
